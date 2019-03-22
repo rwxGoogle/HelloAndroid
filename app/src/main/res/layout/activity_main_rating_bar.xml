@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
+    android:orientation="vertical">
 
     <RatingBar
-        style="?android:ratingBarStyleSmall"
+        android:id="@+id/rating_bar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:numStars="10"
-        android:rating="5"
-        android:stepSize="1" />
+        style="?android:ratingBarStyle"
+        android:numStars="7"
+        android:rating="3"
+        android:stepSize="1.5"/>
 
 </LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="#556622">
+
+    <EditText
+        android:id="@+id/inputbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textColor="#fff555"
+        android:textSize="40dp"
+        android:textColorHint="#fff"
+        android:hint="Type here and watch Logcat"/>
+
+</LinearLayout>

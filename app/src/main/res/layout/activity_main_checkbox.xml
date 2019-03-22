@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    android:gravity="center"
+    android:background="#448899">
 
-    <RatingBar
-        style="?android:ratingBarStyleSmall"
+    <CheckBox
+        android:id="@+id/checkbox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:numStars="10"
-        android:rating="5"
-        android:stepSize="1" />
+        android:text="Check me !"
+        android:paddingRight="60sp"
+        android:textSize="50sp"
+        android:textColor="#fff"
+        android:textAppearance="?android:textAppearanceMedium"/>
 
 </LinearLayout>

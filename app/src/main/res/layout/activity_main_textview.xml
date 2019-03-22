@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#224400"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:layout_marginTop="50sp"
+        android:text="Hello Android !"
+        android:layout_marginLeft="30sp"
+        android:textSize="50sp"
+        android:textColor="#fff"
+        android:textStyle="italic"
+        android:textAlignment="center"/>
+
+</LinearLayout>
