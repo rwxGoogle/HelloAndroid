@@ -13,4 +13,15 @@
     <string name="notify_me">Notify Me :)</string>
     <string name="radio_button_1">Radio button 1</string>
     <string name="radio_button_2">Radio button 2</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="i_accept_t_amp_c"><![CDATA[I accept T&C]]></string>
+    <string name="hello_android_fundamentals">Hello Android Fundamentals</string>
+
+    <array name="data">
+        <item>"Data 1"</item>
+        <item>"Data 2"</item>
+        <item>"Data 3"</item>
+    </array>
 </resources>
