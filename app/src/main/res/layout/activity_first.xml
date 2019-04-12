@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:orientation="vertical"
+    android:padding="@dimen/mid_size">
+
+    <EditText
+        android:id="@+id/name_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/mid_size"
+        android:hint="Name"
+        android:inputType="text"
+        android:textSize="@dimen/mid_text_size" />
+
+    <EditText
+        android:id="@+id/number_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/mid_size"
+        android:hint="Number"
+        android:inputType="phone"
+        android:textSize="@dimen/mid_text_size" />
+
+    <Button
+        android:id="@+id/start_second_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/mid_size"
+        android:background="@color/green"
+        android:text="Start Second Activity" />
+
+    <Button
+        android:id="@+id/start_third_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/yellow"
+        android:text="Start Third Activity" />
+</LinearLayout>

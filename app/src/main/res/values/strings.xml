@@ -18,6 +18,8 @@
     <string name="phone">Phone</string>
     <string name="i_accept_t_amp_c"><![CDATA[I accept T&C]]></string>
     <string name="hello_android_fundamentals">Hello Android Fundamentals</string>
+    <string name="start_second_activity">Start Second Activity</string>
+    <string name="finish_second_activity">Close Second Activity</string>
 
     <array name="data">
         <item>"Data 1"</item>
