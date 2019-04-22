@@ -26,4 +26,17 @@
         <item>"Data 2"</item>
         <item>"Data 3"</item>
     </array>
+    <string name="title_activity_example1">Example1Activity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_example3">Example3Activity</string>
+    <string name="title_activity_example4">Example4Activity</string>
+    <string name="title_activity_master">MasterActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
 </resources>
