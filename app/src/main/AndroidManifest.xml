@@ -53,7 +53,7 @@
             android:label="@string/title_activity_second"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".w6examples.example4.Example4Activity"
+            android:name=".w8example.RetrofitMainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -62,6 +62,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".w6examples.example4.Example4Activity" />
     </application>
 
 </manifest>

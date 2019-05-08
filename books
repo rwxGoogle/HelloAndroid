@@ -1,0 +1,20 @@
+[
+  {
+    "title": "The Lord of the Rings",
+    "author": "Tolkien",
+    "publisher": "Corinth",
+    "year": 1999
+  },
+  {
+    "title": "The Foundation",
+    "author": "Isaac Asimov",
+    "publisher": "My publishing house",
+    "year": 1985
+  },
+  {
+    "title": "The Foundation 2",
+    "author": "Isaac Asimov",
+    "publisher": "My publishing house",
+    "year": 1988
+  }
+]
