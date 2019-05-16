@@ -25,10 +25,10 @@ public class RetrofitMainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_retofit_main_activity);
 
         PersonApi api = getRetrofit().create(PersonApi.class);
-        Call<List<Person>> persons = api.getPersons("test_json2");
-        persons.enqueue(new Callback<List<Person>>() {
+        Call<List<User>> persons = api.getPersons("test_json1");
+        persons.enqueue(new Callback<List<User>>() {
             @Override
-            public void onResponse(Call<List<Person>> call, Response<List<Person>> response) {
+            public void onResponse(Call<List<User>> call, Response<List<User>> response) {
                 if (response.isSuccessful()) {
                     Log.d("Response", response.body().toString());
                 } else {
@@ -38,7 +38,7 @@ public class RetrofitMainActivity extends AppCompatActivity {
             }
 
             @Override
-            public void onFailure(Call<List<Person>> call, Throwable t) {
+            public void onFailure(Call<List<User>> call, Throwable t) {
                 Log.w("Response", "Error in call", t);
             }
         });
